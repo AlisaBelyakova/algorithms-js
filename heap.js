@@ -1,11 +1,5 @@
 
-/*
-COLORS, black, red, green, yellow, blue , magenta, cyan, white 
-BACKGROUND , bgBlack, bgRed, bgGreen, bgYellow, bgBlue, bgMagenta, bgCyan, bgWhite
-*/
-// Do not edit the class below except for the buildHeap,
-// siftDown, siftUp, peek, remove, and insert methods.
-// Feel free to add new properties and methods to the class.
+
 class MinHeap {
     constructor(array) {
         this.heap = this.buildHeap(array);
